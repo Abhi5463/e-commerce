@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   width: 100vw;
@@ -68,7 +69,7 @@ const Register = () => {
             By creating an account, I consent to the processing of my personal
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
-          <Button>CREATE</Button>
+          <Link to ="/"><Button>CREATE</Button></Link>
         </Form>
       </Wrapper>
     </Container>
